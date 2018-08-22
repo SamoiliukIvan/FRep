@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author we
+ *
+ */
+module FRepLocale {
+}
