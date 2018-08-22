@@ -1,5 +1,6 @@
 package Collections;
 
+
 import java.util.Iterator;
 
 public class Animal {
