@@ -1,5 +1,7 @@
 package Threads;
 
+import org.junit.Test;
+
 public class Thread_1a implements Runnable {
 
 	public void run() {
@@ -17,4 +19,9 @@ public class Thread_1a implements Runnable {
 		Thread t = new Thread(new Thread_1a());
 		t.start();
 	}
+	@Test
+	public void testSomething( ) {
+		System.out.println("Test started");
+	}
+	
 }
